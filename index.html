@@ -1,201 +1,250 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Lock360 ofrece sistemas de seguridad electrónica integrados: CCTV, control de acceso, detección de incendios, intrusión y telecomunicaciones para instalaciones críticas." />
-  <title>Lock360 | Sistemas de seguridad electrónica</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-  <header class="site-header">
-    <div class="container header-inner">
-      <a class="brand" href="#hero"><img src="logo.svg" alt="Lock360" class="logo" /></a>
-      <nav class="nav-links" aria-label="Menú principal">
-        <a href="#servicios">Servicios</a>
-        <a href="#beneficios">Ventajas</a>
-        <a href="#proyectos">Proyectos</a>
-        <a href="#contacto">Contacto</a>
-      </nav>
-      <a class="btn btn-cta" href="#contacto">Solicitar presupuesto</a>
-    </div>
-  </header>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Lock360 — Sistemas integrados de CCTV, control de acceso, detección de incendio e intrusión para instalaciones críticas." />
+    <title>Lock360 | Seguridad electrónica</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
-  <main>
-    <section id="hero" class="hero-section">
-      <div class="container hero-grid">
-        <div class="hero-copy">
-          <p class="eyebrow">Seguridad electrónica profesional</p>
-          <h1>Control y protección electrónica precisa para instalaciones críticas.</h1>
-          <p class="hero-text">Lock360 diseña e implementa sistemas integrados de CCTV, control de acceso, detección de incendio, intrusión y telecomunicaciones con enfoque en resiliencia operativa.</p>
-          <div class="hero-actions">
-            <a class="btn btn-primary" href="#servicios">Ver servicios</a>
-            <a class="btn btn-ghost" href="#contacto">Habla con un experto</a>
-          </div>
-          <div class="hero-stats">
-            <div class="stat-card">
-              <strong>15+</strong>
-              <span>Años en seguridad</span>
-            </div>
-            <div class="stat-card">
-              <strong>250+</strong>
-              <span>Proyectos críticos</span>
-            </div>
-            <div class="stat-card">
-              <strong>24/7</strong>
-              <span>Monitoreo disponible</span>
-            </div>
-          </div>
-        </div>
+  <body>
+    <a class="skip-link" href="#main">Saltar al contenido</a>
 
-        <div class="hero-panel">
-          <div class="hero-image-mask">
-            <img src="logistics-center.svg" alt="Centro logístico monitoreado con sistemas de seguridad" />
-          </div>
-          <div class="hero-card">
-            <span class="card-tag">Gestión técnica</span>
-            <h2>Soluciones electrónicas con supervisión y control centralizado.</h2>
-            <p>Desarrollamos instalaciones seguras con planos técnicos, pruebas funcionales y soporte operativo para sistemas críticos.</p>
-          </div>
-        </div>
+    <header class="site-header" role="banner">
+      <div class="container header-inner">
+        <a class="brand" href="#hero" aria-label="Inicio — Lock360">
+          <img src="logo.svg" alt="Lock360" class="logo" />
+        </a>
+
+        <button id="navToggle" class="btn btn-ghost" aria-controls="primaryNav" aria-expanded="false" aria-label="Abrir menú">☰</button>
+
+        <nav id="primaryNav" class="nav-links" role="navigation" aria-label="Menú principal">
+          <a href="#servicios">Servicios</a>
+          <a href="#beneficios">Ventajas</a>
+          <a href="#proyectos">Proyectos</a>
+          <a href="#contacto">Contacto</a>
+        </nav>
+
+        <a class="btn btn-cta" href="#contacto">Solicitar presupuesto</a>
       </div>
-    </section>
+    </header>
 
-    <section id="servicios" class="section section-alt">
-      <div class="container">
-        <div class="section-header">
-          <p class="eyebrow">Servicios</p>
-          <h2>Un ecosistema digital de seguridad para tu empresa</h2>
-        </div>
+    <main id="main">
+      <section id="hero" class="hero-section">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Seguridad electrónica profesional</p>
+            <h1>Control y protección electrónica para instalaciones críticas</h1>
+            <p class="hero-text">Diseño e implementación de CCTV, control de acceso, detección de incendio, intrusión y telecomunicaciones con foco en continuidad operativa y resiliencia.</p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#servicios">Ver servicios</a>
+              <a class="btn btn-ghost" href="#contacto">Habla con un experto</a>
+            </div>
 
-        <div class="service-grid">
-          <article class="service-card">
-            <div class="service-icon" aria-hidden="true">📷</div>
-            <h3>CCTV</h3>
-            <p>Implementación de cámaras IP y grabación continua con analítica, almacenamiento seguro y visualización centralizada.</p>
-          </article>
-          <article class="service-card">
-            <div class="service-icon" aria-hidden="true">🔐</div>
-            <h3>Control de acceso</h3>
-            <p>Soluciones de puertas y lectoras con biometría, tarjetas y gestión de eventos para áreas críticas y trazabilidad de personal.</p>
-          </article>
-          <article class="service-card">
-            <div class="service-icon" aria-hidden="true">🔥</div>
-            <h3>Detección de incendio</h3>
-            <p>Redes de detectores, centrales de alarmas y señalización para respuesta inmediata en caso de eventos de fuego.</p>
-          </article>
-          <article class="service-card">
-            <div class="service-icon" aria-hidden="true">🚨</div>
-            <h3>Intrusión</h3>
-            <p>Sistemas de detección perimetral, contacto magnético y alarmas integradas para mitigar accesos no autorizados.</p>
-          </article>
-          <article class="service-card">
-            <div class="service-icon" aria-hidden="true">📡</div>
-            <h3>Telecomunicaciones</h3>
-            <p>Cableado estructurado, redes de datos y enlaces de comunicación para respaldar sistemas de seguridad y supervisión.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="beneficios" class="section">
-      <div class="container benefits-grid">
-        <div class="benefit-copy">
-          <p class="eyebrow">Beneficios</p>
-          <h2>Arquitectura de seguridad electrónica con enfoque en disponibilidad y control.</h2>
-          <p class="section-copy">Instalamos sistemas de seguridad que unen control de acceso, videovigilancia y redes con criterios de redundancia y mantenimiento.</p>
-          <ul class="benefit-list">
-            <li>Plataformas unificadas para monitoreo y alertas</li>
-            <li>Redes protegidas con redundancia y velocidad</li>
-            <li>Implementación técnica con documentación completa</li>
-            <li>Soporte y mantenimiento 24/7 para instalaciones críticas</li>
-          </ul>
-        </div>
-        <div class="benefit-panel">
-          <div class="panel-glow"></div>
-          <div class="panel-content">
-            <span class="panel-eyebrow">Entorno digital</span>
-            <h3>Diseño seguro desde la capa física hasta la conectividad.</h3>
-            <p>Controlamos cada punto de la red y los sistemas de seguridad para entregar una operación confiable y auditable.</p>
-            <div class="panel-list">
-              <div>
-                <strong>Diagnóstico</strong>
-                <p>Relevamiento de riesgo, análisis de cableado y propuesta de arquitectura de seguridad electrónica.</p>
+            <div class="hero-stats">
+              <div class="stat-card">
+                <strong>15+</strong>
+                <span>Años en seguridad</span>
               </div>
-              <div>
-                <strong>Implementación</strong>
-                <p>Instalación de sistemas CCTV, control de acceso e intrusión con certificación de funcionamiento.</p>
+              <div class="stat-card">
+                <strong>250+</strong>
+                <span>Proyectos críticos</span>
               </div>
-              <div>
-                <strong>Soporte</strong>
-                <p>Mantenimiento preventivo y atención técnica para garantizar disponibilidad continua.</p>
+              <div class="stat-card">
+                <strong>24/7</strong>
+                <span>Monitoreo</span>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-    </section>
 
-    <section id="proyectos" class="section section-dark">
-      <div class="container section-center">
-        <p class="eyebrow">Proyectos recientes</p>
-        <h2>Implementaciones de seguridad electrónica en instalaciones críticas</h2>
-        <div class="project-grid">
-          <article class="project-card">
-            <span class="project-tag">Logística</span>
-            <h3>Centro logístico seguro</h3>
-            <p>Plataforma CCTV y acceso controlado para proteger operaciones de almacenamiento y distribución.</p>
-          </article>
-          <article class="project-card">
-            <span class="project-tag">Corporativo</span>
-            <h3>Edificio de oficinas</h3>
-            <p>Integración de control de acceso, CCTV y comunicaciones para seguridad perimetral y operativa.</p>
-          </article>
-          <article class="project-card">
-            <span class="project-tag">Industrial</span>
-            <h3>Planta de producción</h3>
-            <p>Red de sensores y CCTV para proteger perímetros, instalaciones y procesos industriales.</p>
-          </article>
+          <aside class="hero-panel" aria-hidden="true">
+            <div class="hero-image-mask">
+              <img src="logistics-center.svg" alt="Centro logístico monitoreado con sistemas de seguridad" />
+            </div>
+            <div class="hero-card">
+              <span class="card-tag">Gestión técnica</span>
+              <h2>Supervisión y control centralizado</h2>
+              <p>Planos técnicos, pruebas funcionales y soporte operativo para sistemas críticos.</p>
+            </div>
+          </aside>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section id="contacto" class="section section-alt contact-section">
-      <div class="container contact-grid">
-        <div class="contact-copy">
-          <p class="eyebrow">Contacto</p>
-          <h2>Solicita una consultoría en seguridad electrónica y control de accesos.</h2>
-          <p class="section-copy">Recibe una propuesta técnica para tu infraestructura de CCTV, detección, intrusión y redes seguras.</p>
-          <div class="contact-actions">
-            <a class="btn btn-wsp" href="https://wa.me/56920167487" target="_blank" rel="noopener noreferrer" aria-label="Contactar por WhatsApp">Contactar por WhatsApp</a>
+      <section id="servicios" class="section section-alt" aria-labelledby="servicios-h">
+        <div class="container">
+          <header class="section-header">
+            <p class="eyebrow">Servicios</p>
+            <h2 id="servicios-h">Un ecosistema digital de seguridad para tu empresa</h2>
+          </header>
+
+          <!-- Cards: accesibles y clicables -->
+          <div class="service-grid" role="list">
+            <a class="service-card fade-in" role="listitem" href="#contacto" aria-labelledby="svc-cctv">
+              <div class="service-icon" aria-hidden="true">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <rect x="3" y="7" width="13" height="8" rx="2" stroke="currentColor" stroke-width="1.2" fill="rgba(0,166,214,0.06)"/>
+                  <circle cx="18.5" cy="11" r="2" stroke="currentColor" stroke-width="1.2" fill="rgba(0,166,214,0.12)"/>
+                </svg>
+              </div>
+              <h3 id="svc-cctv">CCTV</h3>
+              <p>Implementación de cámaras IP y grabación continua con analítica y visualización centralizada.</p>
+              <span class="card-cta">Solicitar demo →</span>
+            </a>
+
+            <a class="service-card fade-in" role="listitem" href="#contacto" aria-labelledby="svc-acceso">
+              <div class="service-icon" aria-hidden="true">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect x="4" y="9" width="16" height="10" rx="2" stroke="currentColor" stroke-width="1.2" fill="rgba(0,166,214,0.06)"/>
+                  <path d="M8 9V7a4 4 0 1 1 8 0v2" stroke="currentColor" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+                </svg>
+              </div>
+              <h3 id="svc-acceso">Control de acceso</h3>
+              <p>Lectores, biometría y gestión de eventos para accesos y trazabilidad de personal.</p>
+              <span class="card-cta">Solicitar visita →</span>
+            </a>
+
+            <a class="service-card fade-in" role="listitem" href="#contacto" aria-labelledby="svc-incendio">
+              <div class="service-icon" aria-hidden="true">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12 21s4-4 4-8a4 4 0 0 0-8 0c0 4 4 8 4 8z" stroke="currentColor" stroke-width="1.2" fill="rgba(0,166,214,0.08)"/>
+                  <path d="M12 7.5c0 2-1 3-1 3s1 0 1 1" stroke="currentColor" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+                </svg>
+              </div>
+              <h3 id="svc-incendio">Detección de incendio</h3>
+              <p>Redes de detectores, centrales de alarmas y señalización para respuesta inmediata.</p>
+              <span class="card-cta">Ver soluciones →</span>
+            </a>
+
+            <a class="service-card fade-in" role="listitem" href="#contacto" aria-labelledby="svc-intrusion">
+              <div class="service-icon" aria-hidden="true">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect x="3" y="5" width="18" height="12" rx="2" stroke="currentColor" stroke-width="1.2" fill="rgba(0,166,214,0.06)"/>
+                  <path d="M7 12h6" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+                </svg>
+              </div>
+              <h3 id="svc-intrusion">Intrusión</h3>
+              <p>Detección perimetral, sensores y alarmas para mitigar accesos no autorizados.</p>
+              <span class="card-cta">Solicitar presupuesto →</span>
+            </a>
+
+            <a class="service-card fade-in" role="listitem" href="#contacto" aria-labelledby="svc-telecom">
+              <div class="service-icon" aria-hidden="true">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.2" fill="rgba(0,166,214,0.04)"/>
+                  <path d="M12 8v8M8 12h8" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+                </svg>
+              </div>
+              <h3 id="svc-telecom">Telecomunicaciones</h3>
+              <p>Cableado estructurado y redes de datos para respaldo y supervisión.</p>
+              <span class="card-cta">Revisar servicios →</span>
+            </a>
           </div>
         </div>
-        <aside class="contact-card">
-          <span class="card-tag">Soporte técnico</span>
-          <h3>Proyecto llave en mano</h3>
-          <p>Desde diagnóstico hasta operación, entregamos soluciones con validación y soporte continuo.</p>
-          <ul class="contact-list">
-            <li>Evaluación de riesgos</li>
-            <li>Diseño de arquitectura segura</li>
-            <li>Instalación y parametrización</li>
-            <li>Capacitación y documentación</li>
-          </ul>
-        </aside>
-      </div>
-    </section>
-  </main>
+      </section>
 
-  <footer class="site-footer">
-    <div class="container footer-inner">
-      <p>© 2026 Lock360. Entorno digital de seguridad y comunicaciones.</p>
-      <div class="footer-links">
-        <a href="#">Política de privacidad</a>
-        <a href="#">Términos</a>
+      <section id="beneficios" class="section" aria-labelledby="beneficios-h">
+        <div class="container benefits-grid">
+          <div class="benefit-copy">
+            <p class="eyebrow">Beneficios</p>
+            <h2 id="beneficios-h">Arquitectura de seguridad con foco en disponibilidad</h2>
+            <p class="section-copy">Sistemas integrados con criterios de redundancia, monitoreo y mantenimiento.</p>
+            <ul class="benefit-list">
+              <li>Plataformas unificadas para monitoreo y alertas</li>
+              <li>Redes protegidas con redundancia</li>
+              <li>Instalación y documentación técnica</li>
+              <li>Soporte 24/7 para operaciones críticas</li>
+            </ul>
+          </div>
+
+          <div class="benefit-panel">
+            <div class="panel-glow"></div>
+            <div class="panel-content">
+              <span class="panel-eyebrow">Entorno digital</span>
+              <h3>Diseño seguro desde la capa física hasta la conectividad</h3>
+              <p>Controlamos cada punto de la red y los sistemas de seguridad para entregar una operación confiable.</p>
+              <div class="panel-list">
+                <div>
+                  <strong>Diagnóstico</strong>
+                  <p>Relevamiento de riesgo y propuesta de arquitectura segura.</p>
+                </div>
+                <div>
+                  <strong>Implementación</strong>
+                  <p>Instalación con certificación y pruebas funcionales.</p>
+                </div>
+                <div>
+                  <strong>Soporte</strong>
+                  <p>Mantenimiento preventivo y atención técnica continua.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="proyectos" class="section section-dark" aria-labelledby="proyectos-h">
+        <div class="container section-center">
+          <p class="eyebrow">Proyectos recientes</p>
+          <h2 id="proyectos-h">Implementaciones en instalaciones críticas</h2>
+          <div class="project-grid">
+            <article class="project-card">
+              <span class="project-tag">Logística</span>
+              <h3>Centro logístico seguro</h3>
+              <p>Plataforma CCTV y control de accesos para operaciones de almacén.</p>
+            </article>
+            <article class="project-card">
+              <span class="project-tag">Corporativo</span>
+              <h3>Edificio de oficinas</h3>
+              <p>Integración de accesos, CCTV y comunicaciones para seguridad operativa.</p>
+            </article>
+            <article class="project-card">
+              <span class="project-tag">Industrial</span>
+              <h3>Planta de producción</h3>
+              <p>Red de sensores y CCTV para protección de procesos y perímetros.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contacto" class="section section-alt contact-section" aria-labelledby="contacto-h">
+        <div class="container contact-grid">
+          <div class="contact-copy">
+            <p class="eyebrow">Contacto</p>
+            <h2 id="contacto-h">Solicita una consultoría en seguridad electrónica</h2>
+            <p class="section-copy">Recibe una propuesta técnica para CCTV, detección, intrusión y redes seguras.</p>
+            <div class="contact-actions">
+              <a class="btn btn-wsp" href="https://wa.me/56920167487" target="_blank" rel="noopener noreferrer" aria-label="Contactar por WhatsApp">Contactar por WhatsApp</a>
+              <a class="btn btn-primary" href="mailto:contacto.lock360@gmail.com">Pedir propuesta</a>
+            </div>
+          </div>
+          <aside class="contact-card">
+            <span class="card-tag">Soporte técnico</span>
+            <h3>Proyecto llave en mano</h3>
+            <p>Desde diagnóstico hasta operación, entregamos soluciones con validación y soporte continuo.</p>
+            <ul class="contact-list">
+              <li>Evaluación de riesgos</li>
+              <li>Diseño de arquitectura segura</li>
+              <li>Instalación y parametrización</li>
+              <li>Capacitación y documentación</li>
+            </ul>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" role="contentinfo">
+      <div class="container footer-inner">
+        <p>© 2026 Lock360. Entorno digital de seguridad y comunicaciones.</p>
+        <div class="footer-links">
+          <a href="#">Política de privacidad</a>
+          <a href="#">Términos</a>
+        </div>
       </div>
-    </div>
-  </footer>
-</body>
+    </footer>
+
+    <script src="script.js" defer></script>
+  </body>
 </html>
