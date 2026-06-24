@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="Illustration of security systems and networking">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#eff6ff"/>
+      <stop offset="100%" stop-color="#dbeafe"/>
+    </linearGradient>
+    <linearGradient id="shield" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#2563eb"/>
+      <stop offset="100%" stop-color="#1d4ed8"/>
+    </linearGradient>
+    <linearGradient id="ring" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#e0e7ff"/>
+      <stop offset="100%" stop-color="#c7d2fe"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)" rx="40"/>
+  <circle cx="300" cy="200" r="68" fill="#ffffff" opacity="0.92"/>
+  <circle cx="900" cy="180" r="110" fill="#ffffff" opacity="0.85"/>
+  <path d="M360 560 C420 520 500 520 560 560 L560 670 C500 720 420 720 360 670 Z" fill="url(#ring)"/>
+  <path d="M460 520 L740 520 L740 320 C740 260 680 220 620 240 L540 280 C500 300 460 340 460 520 Z" fill="url(#shield)" stroke="#1d4ed8" stroke-width="12"/>
+  <path d="M548 276 L620 250 C668 234 714 270 714 320 L714 500" fill="none" stroke="#93c5fd" stroke-width="10" stroke-linecap="round"/>
+  <path d="M620 440 C664 440 700 404 700 360 C700 316 664 280 620 280 C576 280 540 316 540 360 C540 404 576 440 620 440 Z" fill="#f8fafc" stroke="#1e40af" stroke-width="8"/>
+  <circle cx="620" cy="360" r="18" fill="#1d4ed8"/>
+  <rect x="320" y="440" width="320" height="200" rx="30" fill="#ffffff" opacity="0.95"/>
+  <rect x="360" y="480" width="240" height="22" rx="11" fill="#c7d2fe"/>
+  <rect x="360" y="520" width="180" height="18" rx="9" fill="#e0e7ff"/>
+  <rect x="360" y="560" width="220" height="18" rx="9" fill="#c7d2fe"/>
+  <circle cx="250" cy="520" r="14" fill="#1d4ed8"/>
+  <circle cx="920" cy="320" r="10" fill="#2563eb"/>
+  <circle cx="980" cy="220" r="14" fill="#1d4ed8"/>
+  <circle cx="840" cy="260" r="12" fill="#60a5fa"/>
+  <path d="M920 320 L760 420" stroke="#93c5fd" stroke-width="8" stroke-linecap="round" opacity="0.75"/>
+  <path d="M980 220 L820 340" stroke="#93c5fd" stroke-width="8" stroke-linecap="round" opacity="0.75"/>
+  <path d="M760 420 L660 360" stroke="#93c5fd" stroke-width="8" stroke-linecap="round" opacity="0.75"/>
+  <g transform="translate(160, 560)">
+    <rect x="0" y="0" width="76" height="76" rx="20" fill="#2563eb" opacity="0.14"/>
+    <rect x="100" y="28" width="120" height="42" rx="12" fill="#ffffff"/>
+    <text x="160" y="56" text-anchor="middle" fill="#1d4ed8" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700">CCTV</text>
+  </g>
+  <g transform="translate(700, 560)">
+    <rect x="0" y="0" width="76" height="76" rx="20" fill="#2563eb" opacity="0.14"/>
+    <rect x="100" y="28" width="140" height="42" rx="12" fill="#ffffff"/>
+    <text x="170" y="56" text-anchor="middle" fill="#1d4ed8" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700">RED</text>
+  </g>
+</svg>
