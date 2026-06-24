@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+  <defs>
+    <linearGradient id="g1" x1="0" x2="1">
+      <stop offset="0" stop-color="#e6f7ff"/>
+      <stop offset="1" stop-color="#cfeefb"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="700" fill="url(#g1)"/>
+  <g fill="#0a2540" font-family="Inter, Arial, sans-serif">
+    <rect x="60" y="80" width="1080" height="420" rx="12" fill="#ffffff" opacity="0.06"/>
+    <text x="100" y="320" font-size="56" font-weight="700">Centro logístico</text>
+    <text x="100" y="380" font-size="24" fill="#08304a">Imagen de muestra — reemplázala por tu foto real</text>
+  </g>
+</svg>
