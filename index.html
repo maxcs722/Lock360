@@ -17,10 +17,8 @@
     <header class="site-header" role="banner">
       <div class="container header-inner">
         <a class="brand" href="#hero" aria-label="Inicio — Lock360">
-          <img src="logo.svg" alt="Lock360" class="logo" />
+          <img src="logo.png" alt="Lock360" class="logo" />
         </a>
-
-        <button id="navToggle" class="btn btn-ghost" aria-controls="primaryNav" aria-expanded="false" aria-label="Abrir menú">☰</button>
 
         <nav id="primaryNav" class="nav-links" role="navigation" aria-label="Menú principal">
           <a href="#servicios">Servicios</a>
@@ -63,7 +61,7 @@
 
           <aside class="hero-panel" aria-hidden="true">
             <div class="hero-image-mask">
-              <img src="logistics-center.svg" alt="Centro logístico monitoreado con sistemas de seguridad" />
+              <img id="heroImage" src="assets/images/logistics-center.png" alt="Centro logístico monitoreado con sistemas de seguridad" />
             </div>
             <div class="hero-card">
               <span class="card-tag">Gestión técnica</span>
@@ -192,7 +190,7 @@
             <div class="project-grid" id="projectGrid">
             <article class="project-card">
               <div class="project-image">
-                <img src="assets/images/logistics.svg" alt="Centro logístico" loading="lazy" />
+                <img src="assets/images/logistics.png" alt="Centro logístico" loading="lazy" />
               </div>
               <span class="project-tag">Logística</span>
               <h3>Centro logístico seguro</h3>
@@ -200,7 +198,7 @@
             </article>
             <article class="project-card">
               <div class="project-image">
-                <img src="assets/images/corporate.svg" alt="Edificio de oficinas" loading="lazy" />
+                <img src="assets/images/corporate.png" alt="Edificio de oficinas" loading="lazy" />
               </div>
               <span class="project-tag">Corporativo</span>
               <h3>Edificio de oficinas</h3>
@@ -208,7 +206,7 @@
             </article>
             <article class="project-card">
               <div class="project-image">
-                <img src="assets/images/industrial.svg" alt="Planta de producción" loading="lazy" />
+                <img src="assets/images/industrial.png" alt="Planta de producción" loading="lazy" />
               </div>
               <span class="project-tag">Industrial</span>
               <h3>Planta de producción</h3>
@@ -243,6 +241,14 @@
         </div>
       </section>
     </main>
+
+    <div id="heroOverlay" class="hero-overlay" aria-hidden="true">
+      <div class="hero-overlay-backdrop" data-close="true"></div>
+      <div class="hero-overlay-content" role="dialog" aria-modal="true" aria-label="Imagen ampliada">
+        <button id="heroOverlayClose" class="hero-overlay-close" aria-label="Cerrar imagen">×</button>
+        <img id="heroOverlayImage" src="" alt="" />
+      </div>
+    </div>
 
     <footer class="site-footer" role="contentinfo">
       <div class="container footer-inner">

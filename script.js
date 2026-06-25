@@ -1,21 +1,7 @@
-// Comportamiento mínimo: menú móvil y enlace activo en scroll
+// Comportamiento mínimo: enlace activo en scroll
 document.addEventListener('DOMContentLoaded', function () {
   const nav = document.getElementById('primaryNav');
-  const toggle = document.getElementById('navToggle');
   const links = Array.from(nav.querySelectorAll('a'));
-
-  // Toggle menú móvil
-  toggle.addEventListener('click', () => {
-    const expanded = toggle.getAttribute('aria-expanded') === 'true';
-    toggle.setAttribute('aria-expanded', String(!expanded));
-    nav.classList.toggle('open');
-  });
-
-  // Close nav on link click (mobile)
-  links.forEach(a => a.addEventListener('click', () => {
-    nav.classList.remove('open');
-    toggle.setAttribute('aria-expanded', 'false');
-  }));
 
   // Highlight active section in nav
   const sections = links.map(a => document.querySelector(a.getAttribute('href'))).filter(Boolean);
@@ -40,5 +26,39 @@ document.addEventListener('DOMContentLoaded', function () {
     if (target) target.setAttribute('tabindex', '-1');
     setTimeout(() => target && target.focus(), 10);
   });
-});
 
+  // Expand hero image in overlay
+  const heroImage = document.getElementById('heroImage');
+  const heroOverlay = document.getElementById('heroOverlay');
+  const heroOverlayImage = document.getElementById('heroOverlayImage');
+  const heroOverlayClose = document.getElementById('heroOverlayClose');
+
+  if (heroImage && heroOverlay && heroOverlayImage && heroOverlayClose) {
+    heroImage.style.cursor = 'zoom-in';
+    heroImage.addEventListener('click', () => {
+      heroOverlayImage.src = heroImage.src;
+      heroOverlayImage.alt = heroImage.alt;
+      heroOverlay.classList.add('active');
+      heroOverlayClose.focus();
+    });
+
+    const closeOverlay = () => {
+      heroOverlay.classList.remove('active');
+      heroOverlayImage.src = '';
+      heroImage.focus();
+    };
+
+    heroOverlayClose.addEventListener('click', closeOverlay);
+    heroOverlay.addEventListener('click', (event) => {
+      if (event.target === heroOverlay || event.target.dataset.close === 'true') {
+        closeOverlay();
+      }
+    });
+
+    window.addEventListener('keydown', (event) => {
+      if (event.key === 'Escape' && heroOverlay.classList.contains('active')) {
+        closeOverlay();
+      }
+    });
+  }
+});

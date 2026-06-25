@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 260" role="img" aria-label="Lock360 Seguridad Integral 360°">
-  <title>Lock360 - Seguridad Integral 360°</title>
-  <desc>Texto del logotipo de Lock360 sin icono.</desc>
-  <rect width="1200" height="260" fill="none" />
-  <text x="0" y="120" font-family="Inter, Arial, sans-serif" font-size="110" font-weight="800" fill="#ffffff">LOCK<tspan fill="#3b82f6">360</tspan></text>
-  <text x="0" y="185" font-family="Inter, Arial, sans-serif" font-size="28" fill="#cbd5e1" letter-spacing="4">SEGURIDAD INTEGRAL 360°</text>
-</svg>
