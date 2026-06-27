@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Lock360 — Sistemas integrados de CCTV, control de acceso, detección de incendio e intrusión para instalaciones críticas." />
-    <title>Lock360 | Seguridad electrónica</title>
+    <meta name="description" content="Lock360 — Servicios integrales para empresas: seguridad electrónica, telecomunicaciones, cercos eléctricos, aseo y limpieza corporativa." />
+    <title>Lock360 | Servicios integrales para empresas</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet" />
@@ -35,9 +35,14 @@
       <section id="hero" class="hero-section">
         <div class="container hero-grid">
           <div class="hero-copy">
-            <p class="eyebrow">Seguridad electrónica profesional</p>
-            <h1>Control y protección electrónica para instalaciones críticas</h1>
-            <p class="hero-text">Diseño e implementación de CCTV, control de acceso, detección de incendio, intrusión y telecomunicaciones con foco en continuidad operativa y resiliencia.</p>
+            <p class="eyebrow">Servicios integrales para empresas</p>
+            <h1>Soluciones operativas para proteger, conectar y mantener tu empresa</h1>
+            <p class="hero-text">Integramos seguridad electrónica, telecomunicaciones, cercos eléctricos y servicios de aseo y limpieza corporativa para instalaciones que necesitan continuidad, orden y respuesta confiable.</p>
+            <div class="hero-pills" aria-label="Áreas de servicio">
+              <span>Seguridad electrónica</span>
+              <span>Telecomunicaciones</span>
+              <span>Aseo corporativo</span>
+            </div>
             <div class="hero-actions">
               <a class="btn btn-primary" href="#servicios">Ver servicios</a>
               <a class="btn btn-ghost" href="#contacto">Habla con un experto</a>
@@ -46,27 +51,31 @@
             <div class="hero-stats">
               <div class="stat-card">
                 <strong>15+</strong>
-                <span>Años en seguridad</span>
+                <span>Años de experiencia</span>
               </div>
               <div class="stat-card">
                 <strong>250+</strong>
-                <span>Proyectos críticos</span>
+                <span>Proyectos empresariales</span>
               </div>
               <div class="stat-card">
                 <strong>24/7</strong>
-                <span>Monitoreo</span>
+                <span>Atención operativa</span>
               </div>
             </div>
           </div>
 
           <aside class="hero-panel" aria-hidden="true">
             <div class="hero-image-mask">
-              <img id="heroImage" src="assets/images/logistics-center.png" alt="Centro logístico monitoreado con sistemas de seguridad" />
+              <img id="heroImage" src="assets/images/hero-operations.webp" alt="Centro logístico con servicios operativos integrados" />
+              <div class="hero-image-overlay">
+                <span>Operación integrada</span>
+                <strong>CCTV · Accesos · Redes · Limpieza</strong>
+              </div>
             </div>
             <div class="hero-card">
-              <span class="card-tag">Gestión técnica</span>
-              <h2>Supervisión y control centralizado</h2>
-              <p>Planos técnicos, pruebas funcionales y soporte operativo para sistemas críticos.</p>
+              <span class="card-tag">Gestión integral</span>
+              <h2>Un solo equipo para servicios clave</h2>
+              <p>Diagnóstico, implementación, coordinación y soporte para mantener tus espacios protegidos, conectados y operativos.</p>
             </div>
           </aside>
         </div>
@@ -76,7 +85,8 @@
         <div class="container">
           <header class="section-header">
             <p class="eyebrow">Servicios</p>
-            <h2 id="servicios-h">Un ecosistema digital de seguridad para tu empresa</h2>
+            <h2 id="servicios-h">Servicios para la operación diaria de tu empresa</h2>
+            <p class="section-copy">Agrupamos servicios técnicos y operativos para que tu organización administre menos proveedores y mantenga más control sobre sus instalaciones.</p>
           </header>
 
           <!-- Cards: accesibles y clicables -->
@@ -140,6 +150,33 @@
               <p>Cableado estructurado y redes de datos para respaldo y supervisión.</p>
               <span class="card-cta">Revisar servicios →</span>
             </a>
+
+            <a class="service-card fade-in" role="listitem" href="#contacto" aria-labelledby="svc-cerco-electrico">
+              <div class="service-icon" aria-hidden="true">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M5 20V7M19 20V7" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+                  <path d="M4 9h16M4 13h16M4 17h16" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+                  <path d="M12 3l-2 4h4l-2 4" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </div>
+              <h3 id="svc-cerco-electrico">Cerco Eléctrico</h3>
+              <p>Instalación de cercos eléctricos perimetrales para protección y disuasión de accesos no autorizados.</p>
+              <span class="card-cta">Solicitar cotización →</span>
+            </a>
+
+            <a class="service-card fade-in" role="listitem" href="#contacto" aria-labelledby="svc-aseo-limpieza">
+              <div class="service-icon" aria-hidden="true">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M6 21h12" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+                  <path d="M9 21v-8.5a3 3 0 0 1 6 0V21" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+                  <path d="M8 5h8l-1 4h-6L8 5z" stroke="currentColor" stroke-width="1.2" fill="rgba(0,166,214,0.08)" stroke-linejoin="round"/>
+                  <path d="M10 5V3h4v2" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+                </svg>
+              </div>
+              <h3 id="svc-aseo-limpieza">Servicios de Aseo y Limpieza para Empresas</h3>
+              <p>Planes de limpieza corporativa para oficinas, instalaciones y espacios operativos.</p>
+              <span class="card-cta">Coordinar servicio →</span>
+            </a>
           </div>
         </div>
       </section>
@@ -148,34 +185,34 @@
         <div class="container benefits-grid">
           <div class="benefit-copy">
             <p class="eyebrow">Beneficios</p>
-            <h2 id="beneficios-h">Arquitectura de seguridad con foco en disponibilidad</h2>
-            <p class="section-copy">Sistemas integrados con criterios de redundancia, monitoreo y mantenimiento.</p>
+            <h2 id="beneficios-h">Coordinación integral con foco en continuidad</h2>
+            <p class="section-copy">Servicios planificados con criterios técnicos, supervisión y mantenimiento para reducir interrupciones en la operación.</p>
             <ul class="benefit-list">
-              <li>Plataformas unificadas para monitoreo y alertas</li>
-              <li>Redes protegidas con redundancia</li>
-              <li>Instalación y documentación técnica</li>
-              <li>Soporte 24/7 para operaciones críticas</li>
+              <li>Un solo proveedor para seguridad, redes, perímetros y limpieza</li>
+              <li>Planificación de visitas, instalaciones y mantenimientos</li>
+              <li>Documentación técnica y seguimiento de cada servicio</li>
+              <li>Atención flexible para operaciones empresariales</li>
             </ul>
           </div>
 
           <div class="benefit-panel">
             <div class="panel-glow"></div>
             <div class="panel-content">
-              <span class="panel-eyebrow">Entorno digital</span>
-              <h3>Diseño seguro desde la capa física hasta la conectividad</h3>
-              <p>Controlamos cada punto de la red y los sistemas de seguridad para entregar una operación confiable.</p>
+              <span class="panel-eyebrow">Operación empresarial</span>
+              <h3>Servicios coordinados desde la infraestructura hasta los espacios de trabajo</h3>
+              <p>Ordenamos necesidades técnicas y operativas para entregar soluciones confiables, medibles y fáciles de administrar.</p>
               <div class="panel-list">
                 <div>
                   <strong>Diagnóstico</strong>
-                  <p>Relevamiento de riesgo y propuesta de arquitectura segura.</p>
+                  <p>Levantamiento de necesidades por instalación, área y prioridad operativa.</p>
                 </div>
                 <div>
                   <strong>Implementación</strong>
-                  <p>Instalación con certificación y pruebas funcionales.</p>
+                  <p>Ejecución de servicios con coordinación, validación y entrega documentada.</p>
                 </div>
                 <div>
                   <strong>Soporte</strong>
-                  <p>Mantenimiento preventivo y atención técnica continua.</p>
+                  <p>Mantenimiento preventivo, atención técnica y continuidad del servicio.</p>
                 </div>
               </div>
             </div>
@@ -186,31 +223,39 @@
       <section id="proyectos" class="section section-dark" aria-labelledby="proyectos-h">
         <div class="container section-center">
           <p class="eyebrow">Proyectos recientes</p>
-          <h2 id="proyectos-h">Implementaciones en instalaciones críticas</h2>
-            <div class="project-grid" id="projectGrid">
+          <h2 id="proyectos-h">Soluciones para empresas, edificios e instalaciones operativas</h2>
+          <div class="project-grid" id="projectGrid">
             <article class="project-card">
               <div class="project-image">
-                <img src="assets/images/logistics.png" alt="Centro logístico" loading="lazy" />
+                <img src="assets/images/project-logistics.webp" alt="Centro logístico con sistemas de control y monitoreo" loading="lazy" />
               </div>
               <span class="project-tag">Logística</span>
-              <h3>Centro logístico seguro</h3>
-              <p>Plataforma CCTV y control de accesos para operaciones de almacén.</p>
+              <h3>Centro logístico operativo</h3>
+              <p>Integración de CCTV, control de accesos, redes y soporte para operaciones de almacén.</p>
             </article>
             <article class="project-card">
               <div class="project-image">
-                <img src="assets/images/corporate.png" alt="Edificio de oficinas" loading="lazy" />
+                <img src="assets/images/project-corporate.webp" alt="Edificio corporativo con control de acceso y comunicaciones" loading="lazy" />
               </div>
               <span class="project-tag">Corporativo</span>
               <h3>Edificio de oficinas</h3>
-              <p>Integración de accesos, CCTV y comunicaciones para seguridad operativa.</p>
+              <p>Servicios de control de acceso, telecomunicaciones y limpieza para espacios corporativos.</p>
             </article>
             <article class="project-card">
               <div class="project-image">
-                <img src="assets/images/industrial.png" alt="Planta de producción" loading="lazy" />
+                <img src="assets/images/project-industrial.webp" alt="Planta industrial con monitoreo técnico" loading="lazy" />
               </div>
               <span class="project-tag">Industrial</span>
               <h3>Planta de producción</h3>
-              <p>Red de sensores y CCTV para protección de procesos y perímetros.</p>
+              <p>Cercos eléctricos, sensores, CCTV y mantenimiento para protección de procesos y perímetros.</p>
+            </article>
+            <article class="project-card">
+              <div class="project-image">
+                <img src="assets/images/project-facilities.webp" alt="Acceso corporativo con servicios de mantención para empresas" loading="lazy" />
+              </div>
+              <span class="project-tag">Facility services</span>
+              <h3>Espacios corporativos</h3>
+              <p>Coordinación de aseo, limpieza y soporte operativo para oficinas y áreas comunes.</p>
             </article>
           </div>
         </div>
@@ -220,22 +265,22 @@
         <div class="container contact-grid">
           <div class="contact-copy">
             <p class="eyebrow">Contacto</p>
-            <h2 id="contacto-h">Solicita una consultoría en seguridad electrónica</h2>
-            <p class="section-copy">Recibe una propuesta técnica para CCTV, detección, intrusión y redes seguras.</p>
+            <h2 id="contacto-h">Solicita una propuesta de servicios para tu empresa</h2>
+            <p class="section-copy">Recibe una cotización para seguridad electrónica, telecomunicaciones, cercos eléctricos, aseo y limpieza corporativa.</p>
             <div class="contact-actions">
               <a class="btn btn-wsp" href="https://wa.me/56920167487" target="_blank" rel="noopener noreferrer" aria-label="Contactar por WhatsApp">Contactar por WhatsApp</a>
               <a class="btn btn-primary" href="mailto:contacto.lock360@gmail.com">Pedir propuesta</a>
             </div>
           </div>
           <aside class="contact-card">
-            <span class="card-tag">Soporte técnico</span>
-            <h3>Proyecto llave en mano</h3>
-            <p>Desde diagnóstico hasta operación, entregamos soluciones con validación y soporte continuo.</p>
+            <span class="card-tag">Soporte operativo</span>
+            <h3>Servicios llave en mano</h3>
+            <p>Desde el levantamiento inicial hasta la puesta en marcha, coordinamos soluciones con validación y seguimiento continuo.</p>
             <ul class="contact-list">
-              <li>Evaluación de riesgos</li>
-              <li>Diseño de arquitectura segura</li>
-              <li>Instalación y parametrización</li>
-              <li>Capacitación y documentación</li>
+              <li>Evaluación de necesidades por instalación</li>
+              <li>Propuesta técnica y operativa</li>
+              <li>Instalación, ejecución y puesta en marcha</li>
+              <li>Seguimiento, mantención y documentación</li>
             </ul>
           </aside>
         </div>
@@ -252,7 +297,7 @@
 
     <footer class="site-footer" role="contentinfo">
       <div class="container footer-inner">
-        <p>© 2026 Lock360. Entorno digital de seguridad y comunicaciones.</p>
+        <p>© 2026 Lock360. Servicios integrales para empresas.</p>
         <div class="footer-links">
           <a href="#">Política de privacidad</a>
           <a href="#">Términos</a>
